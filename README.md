@@ -23,13 +23,13 @@ For instance, in order to increment the value
 ```javascript
 SDK.increaseValue()
 ```
-method is used. This call corresponds to following in iOS platform (SDK/Counter.swift file):
+method is used. This call corresponds to following in iOS platform ([SDK/Counter.swift](ios/SDK/Counter.swift)):
 ```swift
   open func increaseCount() {
     self.countValue += 1
   }
 ```
-and following in Android platform (sdk/Counter.java file):
+and following in Android platform ([sdk/Counter.java](android/app/src/main/java/com/app/sdk/Counter.java)):
 ```java
     public void increaseCount() {
         this.countValue++;
