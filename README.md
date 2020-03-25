@@ -242,10 +242,23 @@ Finally, RN side:
 ```
 Examples above also shows parameter passing.
 
+### Using Native Components in RN
+
+Native components are easily used in RN apps. Although there is no example
+in this repo, you can check out [official guidelines](https://reactnative.dev/docs/native-components-ios).
+
 ### Compiling and Going Live
 
-React Native are Native apps too. They compile and run the same way 
+React Native are _native_ apps too. They compile and run the same way 
 Native apps do. Only difference is there will be a compiled js bundle added to
 the app's files.
 
-Going live is just the same in iOS and Android. 
+In Android, one can use Android Studio's green run button in the below image:
+
+![](android_studio.png)
+
+In iOS case, one can use Xcode's run button in the below image:
+
+![](xcode.png)
+
+Only thing to keep in mind is to make sure RN code is bundled.
